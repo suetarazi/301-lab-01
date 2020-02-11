@@ -34,12 +34,16 @@ body {
     width: 200px;
     border-style: solid;
     border: solid 1px black;    
-    
+    float: left;
+}
+
+#mainParent{
+    float: right;
 }
 
 #cdParent{
     width: 760px;
-    /* clear: both; */
+    clear: both;
 }
 
 
@@ -70,7 +74,8 @@ body {
 }
 
 
-#e {
+#e, #f, #g, #h {
+    display: inline;
     box-sizing: border-box;
     height: 250px;
     line-height: 250px;
@@ -81,7 +86,7 @@ body {
     float: left;
 }
 
-#f {
+/* #f {
     box-sizing: border-box;
     height: 250px;
     line-height: 250px;
@@ -116,7 +121,7 @@ body {
     border: solid 1px black;    
     float: right;
 }
-
+ */
 
 #i {
     box-sizing: border-box;
